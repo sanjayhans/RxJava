@@ -16,6 +16,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+    <activity android:name=".Activities.BasicExampleActivity" />
+    <activity android:name=".Activities.DatabaseExample.DatabaseExampleActivity" />
+    <activity
+        android:name=".Activities.NetworkExample.NetworkExampleActivity"
+        android:label="@string/title_activity_network_example"
+        android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name=".Activities.TasksExample.TasksExampleActivity" />
+    <activity android:name=".Activities.ReactiveUi.Complex.ReactiveUIActivity" />
+    <activity android:name=".Activities.ReactiveUi.Simple.SimpleUIActivity" />
+    <activity android:name=".Activities.ThreadingExample.ThreadingExampleActivity"/>
     </application>
 
 </manifest>
