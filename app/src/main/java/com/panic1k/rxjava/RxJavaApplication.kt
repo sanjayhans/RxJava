@@ -23,7 +23,8 @@ class RxJavaApplication: Application() {
 
         setupDatabase()
 
-        SimpleRx.simpleValues()
+        //SimpleRx.simpleValues()
+      SimpleRx.subjects()
     }
 
     fun setupDatabase(){
