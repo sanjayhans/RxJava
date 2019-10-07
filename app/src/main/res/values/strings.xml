@@ -2,4 +2,17 @@
     <string name="app_name">RxJava</string>
     <string name="title_activity_database_example">DatabaseExample</string>
     <string name="title_activity_network_example">NetworkExample</string>
+    <string name="reactive_ui">Reactive UI</string>
+    <string name="add_description">Add Description</string>
+    <string name="null_value">null</string>
+    <string name="some_title">Some Title</string>
+    <string name="some_url">Some Url</string>
+    <string name="message_id">Message ID:</string>
+    <string name="user_id">User ID:</string>
+    <string name="title">Title:</string>
+    <string name="basic_example">Basic Example</string>
+    <string name="body">Body</string>
+    <string name="accept">Accept</string>
+    <string name="recycler_item">Recycler Item</string>
+
 </resources>

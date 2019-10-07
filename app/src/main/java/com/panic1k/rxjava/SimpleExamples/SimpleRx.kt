@@ -2,7 +2,6 @@ package com.panic1k.rxjava.SimpleExamples
 
 import com.jakewharton.rxrelay2.BehaviorRelay
 import io.reactivex.disposables.CompositeDisposable
-import io.reactivex.disposables.Disposable
 import io.reactivex.subjects.BehaviorSubject
 
 object SimpleRx {
@@ -19,7 +18,7 @@ object SimpleRx {
     println("🙈 plainString: $plainString")
 
     someInfo.accept("2")
-    println("🙈 someInfo.value ${someInfo.value}")
+    println("🙈 🙉 someInfo.value ${someInfo.value}")
 
     someInfo.subscribe { newValue ->
       println("🦄 value has changed: $newValue")

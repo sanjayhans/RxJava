@@ -1,16 +1,16 @@
 package com.panic1k.rxjava
 
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ArrayAdapter
-import com.panic1k.rxjava.Activities.BasicExampleActivity
-import com.panic1k.rxjava.Activities.DatabaseExample.DatabaseExampleActivity
-import com.panic1k.rxjava.Activities.NetworkExample.NetworkExampleActivity
-import com.panic1k.rxjava.Activities.ReactiveUi.Complex.ReactiveUIActivity
-import com.panic1k.rxjava.Activities.ReactiveUi.Simple.SimpleUIActivity
-import com.panic1k.rxjava.Activities.TasksExample.TasksExampleActivity
-import com.panic1k.rxjava.Activities.ThreadingExample.ThreadingExampleActivity
+import com.panic1k.rxjava.activities.BasicExampleActivity
+import com.panic1k.rxjava.activities.databaseexample.DatabaseExampleActivity
+import com.panic1k.rxjava.activities.networkexample.NetworkExampleActivity
+import com.panic1k.rxjava.activities.reactiveui.complex.ReactiveUIActivity
+import com.panic1k.rxjava.activities.reactiveui.simple.SimpleUIActivity
+import com.panic1k.rxjava.activities.tasksexample.TasksExampleActivity
+import com.panic1k.rxjava.activities.threadingexample.ThreadingExampleActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 
@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
         activitiesListView.adapter = adapter
 
         activitiesListView.setOnItemClickListener { parent, view, position, id ->
-            when(position) {
+            when (position) {
                 Example.BASIC.ordinal -> presentBasicExample()
                 Example.DATABASE.ordinal -> presentDatabaseExample()
                 Example.NETWORK.ordinal -> presentNetworkExample()
@@ -53,6 +53,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun presentBasicExample() {
+
         val intent = Intent(this, BasicExampleActivity::class.java)
         startActivity(intent)
     }
@@ -78,6 +79,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun presentComplexUIExample() {
+
         val intent = Intent(this, ReactiveUIActivity::class.java)
         startActivity(intent)
     }

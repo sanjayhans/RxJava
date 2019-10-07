@@ -1,14 +1,15 @@
 package com.panic1k.rxjava
 
 import android.app.Application
-import android.arch.persistence.room.Room
+import androidx.room.Room
 import com.google.gson.Gson
-import com.panic1k.rxjava.Common.fromJson
-import com.panic1k.rxjava.ModelLayer.PersistenceLayer.LocalDatabase
-import com.panic1k.rxjava.ModelLayer.PersistenceLayer.PersistenceLayer
-import com.panic1k.rxjava.ModelLayer.PersistenceLayer.PhotoDescription
+import com.panic1k.rxjava.common.fromJson
+import com.panic1k.rxjava.modellayer.PersistenceLayer.LocalDatabase
+import com.panic1k.rxjava.modellayer.PersistenceLayer.PersistenceLayer
+import com.panic1k.rxjava.modellayer.PersistenceLayer.PhotoDescription
 import com.panic1k.rxjava.SimpleExamples.SimpleRx
-import kotlinx.coroutines.experimental.launch
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.launch
 
 class RxJavaApplication: Application() {
 
@@ -28,9 +29,9 @@ class RxJavaApplication: Application() {
     }
 
     fun setupDatabase(){
-        RxJavaApplication.database = Room.databaseBuilder(this, LocalDatabase::class.java, "LearningRxJavaLocalDatabase").build()
+        database = Room.databaseBuilder(this, LocalDatabase::class.java, "LearningRxJavaLocalDatabase").build()
 
-        launch {
+        GlobalScope.launch {
             val photoDescriptions = loadJson()
             PersistenceLayer.shared.prepareDb(photoDescriptions)
         }
