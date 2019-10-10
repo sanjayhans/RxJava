@@ -7,7 +7,7 @@ import com.panic1k.rxjava.common.fromJson
 import com.panic1k.rxjava.modellayer.PersistenceLayer.LocalDatabase
 import com.panic1k.rxjava.modellayer.PersistenceLayer.PersistenceLayer
 import com.panic1k.rxjava.modellayer.PersistenceLayer.PhotoDescription
-import com.panic1k.rxjava.SimpleExamples.SimpleRx
+import com.panic1k.rxjava.simplexamples.SimpleRx
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 

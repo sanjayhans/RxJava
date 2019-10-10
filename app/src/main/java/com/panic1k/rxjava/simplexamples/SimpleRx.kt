@@ -1,4 +1,4 @@
-package com.panic1k.rxjava.SimpleExamples
+package com.panic1k.rxjava.simplexamples
 
 import com.jakewharton.rxrelay2.BehaviorRelay
 import io.reactivex.disposables.CompositeDisposable
