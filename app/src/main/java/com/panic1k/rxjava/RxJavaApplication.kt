@@ -4,9 +4,9 @@ import android.app.Application
 import androidx.room.Room
 import com.google.gson.Gson
 import com.panic1k.rxjava.common.fromJson
-import com.panic1k.rxjava.modellayer.PersistenceLayer.LocalDatabase
-import com.panic1k.rxjava.modellayer.PersistenceLayer.PersistenceLayer
-import com.panic1k.rxjava.modellayer.PersistenceLayer.PhotoDescription
+import com.panic1k.rxjava.modellayer.persistencelayer.LocalDatabase
+import com.panic1k.rxjava.modellayer.persistencelayer.PersistenceLayer
+import com.panic1k.rxjava.modellayer.persistencelayer.PhotoDescription
 import com.panic1k.rxjava.simplexamples.SimpleRx
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch

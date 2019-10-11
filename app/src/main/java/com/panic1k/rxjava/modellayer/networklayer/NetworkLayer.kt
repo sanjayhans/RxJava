@@ -1,11 +1,11 @@
-package com.panic1k.rxjava.modellayer.NetworkLayer
+package com.panic1k.rxjava.modellayer.networklayer
 
 
 import com.panic1k.rxjava.common.StringLambda
 import com.panic1k.rxjava.common.VoidLambda
 import com.panic1k.rxjava.DataLayer.NetworkLayer.EndpointInterfaces.JsonPlaceHolder
 import com.panic1k.rxjava.DataLayer.NetworkLayer.Helpers.ServiceGenerator
-import com.panic1k.rxjava.modellayer.Entities.Message
+import com.panic1k.rxjava.modellayer.entities.Message
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

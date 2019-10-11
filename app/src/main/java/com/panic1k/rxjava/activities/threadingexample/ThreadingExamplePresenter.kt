@@ -1,7 +1,7 @@
 package com.panic1k.rxjava.activities.threadingexample
 
 import com.jakewharton.rxrelay2.BehaviorRelay
-import com.panic1k.rxjava.modellayer.Entities.Friend
+import com.panic1k.rxjava.modellayer.entities.Friend
 import io.reactivex.subjects.BehaviorSubject
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.GlobalScope

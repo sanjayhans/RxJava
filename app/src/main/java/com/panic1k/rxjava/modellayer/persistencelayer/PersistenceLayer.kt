@@ -1,4 +1,4 @@
-package com.panic1k.rxjava.modellayer.PersistenceLayer
+package com.panic1k.rxjava.modellayer.persistencelayer
 
 import androidx.room.*
 import com.jakewharton.rxrelay2.BehaviorRelay

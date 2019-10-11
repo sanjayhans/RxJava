@@ -4,7 +4,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import android.widget.ArrayAdapter
 import com.panic1k.rxjava.common.disposedBy
-import com.panic1k.rxjava.modellayer.Entities.Friend
+import com.panic1k.rxjava.modellayer.entities.Friend
 import com.panic1k.rxjava.R
 import io.reactivex.Observable
 import io.reactivex.disposables.CompositeDisposable

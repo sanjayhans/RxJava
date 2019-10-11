@@ -1,4 +1,4 @@
-package com.panic1k.rxjava.activities.databaseexample
+package com.panic1k.rxjava.activities.databasexample
 
 
 import com.panic1k.rxjava.modellayer.ModelLayer

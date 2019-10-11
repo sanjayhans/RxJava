@@ -1,10 +1,10 @@
-package com.panic1k.rxjava.activities.networkexample.Recycler
+package com.panic1k.rxjava.activities.networkexample.recycler
 
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
 import android.view.View
 import android.widget.TextView
-import com.panic1k.rxjava.modellayer.Entities.Message
+import com.panic1k.rxjava.modellayer.entities.Message
 
 import com.panic1k.rxjava.R
 

@@ -1,11 +1,11 @@
-package com.panic1k.rxjava.activities.databaseexample.Recycler
+package com.panic1k.rxjava.activities.databasexample.recycler
 
 import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 
-import com.panic1k.rxjava.modellayer.PersistenceLayer.PhotoDescription
+import com.panic1k.rxjava.modellayer.persistencelayer.PhotoDescription
 import com.panic1k.rxjava.R
 import io.reactivex.disposables.CompositeDisposable
 

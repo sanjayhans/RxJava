@@ -1,7 +1,7 @@
 package com.panic1k.rxjava.activities.tasksexample
 
 
-import com.panic1k.rxjava.modellayer.Entities.Person
+import com.panic1k.rxjava.modellayer.entities.Person
 import com.panic1k.rxjava.modellayer.ModelLayer
 
 class TasksExamplePresenter {

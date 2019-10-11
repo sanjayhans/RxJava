@@ -1,6 +1,6 @@
 package com.panic1k.rxjava.DataLayer.NetworkLayer.EndpointInterfaces
 
-import com.panic1k.rxjava.modellayer.Entities.Message
+import com.panic1k.rxjava.modellayer.entities.Message
 import retrofit2.Call
 import retrofit2.http.Body
 import retrofit2.http.GET

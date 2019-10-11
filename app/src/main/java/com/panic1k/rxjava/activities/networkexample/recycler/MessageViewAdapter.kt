@@ -1,11 +1,11 @@
-package com.panic1k.rxjava.activities.networkexample.Recycler
+package com.panic1k.rxjava.activities.networkexample.recycler
 
 import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.ViewGroup
 
-import com.panic1k.rxjava.activities.databaseexample.Recycler.ItemClickedlambda
-import com.panic1k.rxjava.modellayer.Entities.Message
+import com.panic1k.rxjava.activities.databasexample.recycler.ItemClickedlambda
+import com.panic1k.rxjava.modellayer.entities.Message
 import com.panic1k.rxjava.R
 
 class MessageViewAdapter(var onItemClicked: ItemClickedlambda) : RecyclerView.Adapter<MessageViewHolder>() {

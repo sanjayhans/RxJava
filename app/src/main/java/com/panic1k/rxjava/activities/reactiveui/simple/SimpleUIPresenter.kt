@@ -1,6 +1,6 @@
 package com.panic1k.rxjava.activities.reactiveui.simple
 
-import com.panic1k.rxjava.modellayer.Entities.Friend
+import com.panic1k.rxjava.modellayer.entities.Friend
 
 class SimpleUIPresenter {
     var friends = listOf(Friend("Debi", "Darlington"),

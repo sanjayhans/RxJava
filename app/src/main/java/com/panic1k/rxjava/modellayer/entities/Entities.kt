@@ -1,4 +1,4 @@
-package com.panic1k.rxjava.modellayer.Entities
+package com.panic1k.rxjava.modellayer.entities
 
 data class Posting (
     val userId: Int,

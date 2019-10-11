@@ -1,10 +1,10 @@
-package com.panic1k.rxjava.activities.databaseexample
+package com.panic1k.rxjava.activities.databasexample
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.panic1k.rxjava.activities.databaseexample.Recycler.PhotoDescriptionViewAdapter
+import com.panic1k.rxjava.activities.databasexample.recycler.PhotoDescriptionViewAdapter
 import com.panic1k.rxjava.R
 import kotlinx.android.synthetic.main.activity_database_example.*
 

@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ArrayAdapter
 import com.panic1k.rxjava.activities.BasicExampleActivity
-import com.panic1k.rxjava.activities.databaseexample.DatabaseExampleActivity
+import com.panic1k.rxjava.activities.databasexample.DatabaseExampleActivity
 import com.panic1k.rxjava.activities.networkexample.NetworkExampleActivity
 import com.panic1k.rxjava.activities.reactiveui.complex.ReactiveUIActivity
 import com.panic1k.rxjava.activities.reactiveui.simple.SimpleUIActivity

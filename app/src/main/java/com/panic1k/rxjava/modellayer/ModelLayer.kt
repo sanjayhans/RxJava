@@ -1,8 +1,8 @@
 package com.panic1k.rxjava.modellayer
 
 
-import com.panic1k.rxjava.modellayer.NetworkLayer.NetworkLayer
-import com.panic1k.rxjava.modellayer.PersistenceLayer.PersistenceLayer
+import com.panic1k.rxjava.modellayer.networklayer.NetworkLayer
+import com.panic1k.rxjava.modellayer.persistencelayer.PersistenceLayer
 
 class ModelLayer {
 

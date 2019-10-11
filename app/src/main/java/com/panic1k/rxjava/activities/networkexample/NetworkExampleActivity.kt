@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 
-import com.panic1k.rxjava.activities.networkexample.Recycler.MessageViewAdapter
+import com.panic1k.rxjava.activities.networkexample.recycler.MessageViewAdapter
 import com.panic1k.rxjava.R
 import kotlinx.android.synthetic.main.activity_network_example.*
 
